@@ -42,15 +42,15 @@ function getAvailableProduct (items) {
 }
 
 // All items made by Sony.
-// var itemsBySony = getItemsByBrand(getItems(data), 'Sony')
-// console.log(itemsBySony)
+var itemsBySony = getItemsByBrand(getItems(data), 'Samsung')
+// console.log(itemsBySony.length)
 
 // All items made by Sony that are available.
 // console.log(getAvailableProduct(itemsBySony))
 
 // All available items by the author "Adorama Camera"
-// console.log(getItemsByAuthor(getItems(data), 'Adorama Camera'))
+console.log(getItemsByAuthor(getItems(data), 'Adorama Camera').length)
 
 // All items made by Nikon with the author eBay.
 var itemsByNikon = getItemsByBrand(getItems(data), 'Nikon')
-console.log(getItemsByAuthor(itemsByNikon, 'eBay').length)
+// console.log(getItemsByAuthor(itemsByNikon, 'eBay').length)
