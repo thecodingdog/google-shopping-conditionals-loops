@@ -1,0 +1,26 @@
+.container {
+  width: 90%;  margin: 0 auto; // floating in the center
+}
+
+.left-content, .right-content, .middle {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.left-content {
+    width: 40%; }
+
+.middle{
+  width: 35%
+}
+
+.right-content {
+  width: 20%; }
+
+h1, h2, h3 {
+  font-size: 30px;
+}
+
+#add{
+  vertical-align: top;
+}

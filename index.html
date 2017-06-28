@@ -3,30 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>GOOGLE SHOPPING</title>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <h1>Shopping List</h1>
-    <ul class='shopping'>
-      <!-- <li>nikon</li>
-      <li>sony</li> -->
-    </ul>
 
+  <body class='container'>
+    <div class='left-content'>
+      <h1>Shopping List</h1>
       <button id='add'>add to cart</button>
+        <ul class='shopping'></ul>
+    </div>
 
+    <div class = 'middle'>
+      <h2>My Cart</h2>
+        <ul class='cart'></ul>
+    </div>
 
-    <h2>My Cart</h2>
-      <ul class='cart'>
-      </ul>
+    <div class = 'right-content'>
+      <h3>Search By Brand</h3>
+        <input type='text' id='searchInput' value=''></input>
+        <button id='search'>search</button>
 
-    <h3>Search By Brand</h3>
-    <input type='text' id='searchInput' value=''></input>
-    <button id='search'>search</button>
-
-    <h3>Search By Author</h3>
-    <input type='text' id='searchByAuthorInput' value=''></input>
-    <button id='searchByAuthor'>search</button>
+      <h3>Search By Author</h3>
+        <input type='text' id='searchByAuthorInput' value=''></input>
+        <button id='searchByAuthor'>search</button>
+    </div>
 
     <script src="js/dom-create.js" charset="utf-8"></script>
-    <!-- <script src="js/google-shopping.js" charset="utf-8"></script> -->
+
   </body>
 </html>
