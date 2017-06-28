@@ -1,6 +1,5 @@
 var data = require('../products.json')
 
-// Write your solutions below
 var itemArr = []
 
 function getItems (data) {
